@@ -1,4 +1,4 @@
-- Hello World! I'm @tagitables
+- 👋 Hello World! I'm @tagitables
 - 👀 I'm interested in programming, philosophy, and pseudoscience.
 - 🌱 I’m currently pursuing my graduate studies at NUS School of Computing.
 - ✨ This GitHub profile is part of my required assignments for submission to MIT.
