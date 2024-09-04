@@ -1,7 +1,8 @@
-👀 I'm interested in programming, philosophy, and pseudoscience.
-🌱 I’m currently pursuing my graduate studies at NUS School of Computing.
-✨ This GitHub profile is part of my required assignments for submission to MIT.
-📫 Contact me at quahkaixin@gmail.com.
+- Hello World! I'm @tagitables
+- 👀 I'm interested in programming, philosophy, and pseudoscience.
+- 🌱 I’m currently pursuing my graduate studies at NUS School of Computing.
+- ✨ This GitHub profile is part of my required assignments for submission to MIT.
+- 📫 Contact me at quahkaixin@gmail.com.
 
 <!---
 tagitables/tagitables is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
