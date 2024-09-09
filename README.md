@@ -6,7 +6,10 @@
   
   <body>
    <h1>Hello World!</h1>
-    <p>For a start, this GitHub page is meant for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission.</p>
+    <p>I am tagitables and I am interested in philosophy and programming.</p>
+    <p>I am currently pursuing my graduate studies at NUS School of Computing.</p>
+    <p>I am also enrolled in the MIT Full Stack Development with MERN programme for extra-exposure.
+    <p>This GitHub page is meant for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission.</p>
   </body>
 </html>
 
