@@ -5,11 +5,8 @@
   </head>
   
   <body>
-   <h1>👋Hello World!</h1>
-    <p> 👀 I'm interested in programming, philosophy, and pseudoscience. </p>
-    <p> 🌱 I’m currently pursuing my graduate studies at NUS School of Computing. </p>
-    <p> ✨ This GitHub profile is a partial view of my required assignments for submission to MIT. </p>
-    <p> 📫 Contact me at quahkaixin@gmail.com. </p>
+   <h1>Hello World!</h1>
+    <p>This GitHub page is mainly meant for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission for a start.</p>
   </body>
 </html>
 
