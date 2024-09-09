@@ -1,8 +1,19 @@
-- 👋 Hello World! I'm @tagitables
-- 👀 I'm interested in programming, philosophy, and pseudoscience.
-- 🌱 I’m currently pursuing my graduate studies at NUS School of Computing.
-- ✨ This GitHub profile is part of my required assignments for submission to MIT.
-- 📫 Contact me at quahkaixin@gmail.com.
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+  </head>
+  <body>
+    <h1>👋Hello World! I'm @tagitables</h1>
+    <p> 👀 I'm interested in programming, philosophy, and pseudoscience. </p>
+    <p> 🌱 I’m currently pursuing my graduate studies at NUS School of Computing. </p>
+    <p> ✨ This GitHub profile is a partial view of my required assignments for submission to MIT. </p>
+    <p> 📫 Contact me at quahkaixin@gmail.com. </p>
+  </body>
+</html>
 
 <!---
 tagitables/tagitables is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
