@@ -6,7 +6,7 @@
   
   <body>
    <h1>Hello World!</h1>
-    <p>This GitHub page is mainly meant for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission for a start.</p>
+    <p>For a start, this GitHub page is mainly meant for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission.</p>
   </body>
 </html>
 
