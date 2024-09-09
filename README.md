@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Hellow World</title>
   </head>
   <body>
-    <h1>👋Hello World! I'm @tagitables</h1>
+    <h1>👋@tagitables</h1>
     <p> 👀 I'm interested in programming, philosophy, and pseudoscience. </p>
     <p> 🌱 I’m currently pursuing my graduate studies at NUS School of Computing. </p>
     <p> ✨ This GitHub profile is a partial view of my required assignments for submission to MIT. </p>
