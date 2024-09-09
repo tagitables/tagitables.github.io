@@ -7,7 +7,7 @@
   <body>
    <h1>Hello World!</h1>
     <p>I am tagitables and I am interested in philosophy and programming.</p>
-    <p>I am currently pursuing part-time graduate studies at NUS School of Computing.</p>
+    <p>I am currently a student at NUS School of Computing.</p>
     <p>I am currently enrolled in the MIT Professional Certificate in Coding - Full Stack Development with MERN program for extra learning.
     <p>To simplify, this GitHub page is meant for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission.</p>
   </body>
