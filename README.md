@@ -6,10 +6,11 @@
   
   <body>
    <h1>Hello World!</h1>
-    <p>I am tagitables and I am interested in philosophy and programming.</p>
+    <p>I am tagitables and I am interested in logic, philosophy, and programming.</p>
     <p>I am currently a student at NUS School of Computing.</p>
-    <p>I am currently enrolled in the MIT Professional Certificate in Coding - Full Stack Development with MERN program for extra learning.
-    <p>To simplify, this GitHub page is meant for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission.</p>
+    <p>With respect to William of Ochkam, I believe in the non-trivial significance of simplicity.</p>
+    <p>I have decided to enroll in this MIT Professional Certificate in Coding - Full Stack Development with MERN program for the sake of my own learning.</p> 
+    <p>This GitHub page is meant for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission.</p>
   </body>
 </html>
 
