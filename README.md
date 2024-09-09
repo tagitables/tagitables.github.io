@@ -6,9 +6,9 @@
   
   <body>
    <h1>Hello World!</h1>
-    <p>My name is Quah Kai Xin and I am interested in philosophy and programming.</p>
+    <p>My name is Quah Kai Xin and I am interested in philosophy, mathematical proofs and programming.</p>
     <p>I am currently a student at NUS School of Computing.</p>
-    <p>I believe in the ordered nature of logic as well as the non-trivial significance of simplicity.</p>
+    <p>I believe in the overarching order of logic as well as the non-trivial significance of simplicity.</p>
     <p>I have decided to enroll in this MIT Professional Certificate in Coding - Full Stack Development with MERN program for the sake of my own learning.</p> 
     <p>This GitHub page is meant for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission.</p>
   </body>
