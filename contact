@@ -1,42 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-
-
-  <body>
-
-    <h2>Contact</h2>
-    <p> <a href="https://github.com/tagitables" class="btn btn-primary" target="_blank">📧 quahkaixin@gmail.com</a> </p>
-    <br> <a href="https://github.com/tagitables" class="btn btn-primary" target="_blank">☎️ +65 1234567890 </a> </br>
-    <br> <a href="https://github.com/tagitables" class="btn btn-primary" target="_blank">📍 singapore</a> </br>
-
-
-  <p>
-
-    <h1>My First Google Map</h1>
-
-    <div id="googleMap" style="width:100%;height:400px;"></div>
-
-    <script>
-    
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-
-        function myMap() {
-        var mapProp= {
-          center:new google.maps.LatLng(51.508742,-0.120850),
-          zoom:5,
-        };
-        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    <title>Contact Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
         }
-        </script>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+        .btn {
+            text-decoration: none;
+            color: white;
+            background-color: #007bff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
 
-  </body>
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Contact</h2>
+    <p>
+        <a href="mailto:quahkaixin@gmail.com" class="btn">📧 quahkaixin@gmail.com</a>
+    </p>
+    <p>
+        <a href="tel:+650123456789" class="btn">☎️ +65 0123456789</a>
+    </p>
+    <p>
+        <a href="loc:singapore" class="btn">📍 singapore</a>
+    </p>
+    <p>
+        <a href="https://github.com/tagitables" class="btn">@tagitables</a>
+    </p>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', {
+            'packages': ['geochart'],
+        });
+        google.charts.setOnLoadCallback(drawRegionsMap);
+
+        function drawRegionsMap() {
+            var data = google.visualization.arrayToDataTable([
+                ['Country'],
+                ['Singapore']
+            ]);
+
+            var options = {
+                colorAxis: { colors: ['#e5e5e5', '#0d3378'] }
+            };
+
+            var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+
+            chart.draw(data, options);
+        }
+    </script>
+
+    <div id="regions_div" style="width: 900px; height: 500px;"></div>
+</body>
+
 </html>
