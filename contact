@@ -1,76 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page</title>
+    <title>Contact Me</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
             text-align: center;
         }
 
-        .btn {
-            text-decoration: none;
+        .contact-box {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: 20px auto;
+        }
+
+        .contact-box h2 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #666;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            border-color: #999;
+            outline: none;
+        }
+
+        button {
+            background-color: #333;
             color: white;
-            background-color: #007bff;
-            padding: 10px 20px;
-            border-radius: 5px;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        #responseMessage {
+            margin-top: 15px;
+            font-size: 1.1em;
+            color: #666;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+        }
+
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+            background-color: #e0e0e0;
+            padding: 10px 15px;
+            border-radius: 4px;
+            display: inline-block;
             font-size: 16px;
         }
 
-        .btn:hover {
-            background-color: #0056b3;
-        }
-
-        #map {
-            width: 900px;
-            height: 500px;
-            margin: auto;
+        .contact-info a:hover {
+            background-color: #ccc;
         }
     </style>
 </head>
-
 <body>
-    <h2>Contact</h2>
-    <p>
-        <a href="mailto:quahkaixin@gmail.com" class="btn">📧 quahkaixin@gmail.com</a>
-    </p>
-    <p>
-        <a href="tel:+1234567890" class="btn">☎️ +1234567890</a>
-    </p>
-    <p>
-        <a href="https://www.google.com/maps/place/Singapore" class="btn">📍 Singapore</a>
-    </p>
-    <p>
-        <a href="https://github.com/tagitables" class="btn">@tagitables</a>
-    </p>
 
-    <div id="map"></div>
+    <div class="container">
+        <div class="contact-info">
+            <h2>Contact Me</h2>
+            <p>
+                <a href="mailto:tagitables@gmail.com">📧 tagitables@gmail.com</a>
+            </p>
+            <p>
+                <a href="tel:+1234567890">☎️ +1234567890</a>
+            </p>
+            <p>
+                <a href="https://www.google.com/maps/place/Singapore">📍 Singapore</a>
+            </p>
+            <p>
+                <a href="https://github.com/tagitables">@tagitables</a>
+            </p>
+        </div>
 
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-        google.charts.load('current', { packages: ['geochart'] });
-        google.charts.setOnLoadCallback(drawMap);
+        <div class="contact-box">
+            <h2>Leave Your Message</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="responseMessage"></div>
+        </div>
+    </div>
 
-        function drawMap() {
-            var data = google.visualization.arrayToDataTable([
-                ['Country', 'Value'],
-                ['Singapore', 1]
-            ]);
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
 
-            var options = {
-                colorAxis: { colors: ['#e5e5e5', '#0d3378'] },
-                tooltip: { trigger: 'none' },  // Hide tooltip
-                backgroundColor: 'transparent' // Optional: make the background transparent
-            };
+            // Retrieve form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const message = document.getElementById('message').value;
 
-            var chart = new google.visualization.GeoChart(document.getElementById('map'));
-            chart.draw(data, options);
-        }
+            // Display a response message
+            const responseMessage = document.getElementById('responseMessage');
+            responseMessage.textContent = `Thank you, ${name}. Your message has been received!`;
+            
+            // Clear the form
+            document.getElementById('contactForm').reset();
+        });
     </script>
-</body>
 
+</body>
 </html>
