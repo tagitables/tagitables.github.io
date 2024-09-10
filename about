@@ -1,19 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  
-  <body>
-    <h2>Quah Kai Xin</h2>
-    <p>Hello World! My name is Quah Kai Xin and I am interested in philosophy, mathematical proofs and programming.</p>
-    <p>I am currently a student at NUS School of Computing.</p>
-    <p>I believe in the overarching order of logic as well as the non-trivial significance of simplicity.</p>
-    <p>I have decided to enroll in this MIT Professional Certificate in Coding - Full Stack Development with MERN program for the sake of my own learning.</p> 
-    <p>This GitHub page is meant for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission.</p></p>
-    <a href="https://github.com/tagitables" class="btn btn-primary" target="_blank">View GitHub Profile</a>    
- </body>
+    <title>Contact Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
+        .container {
+            text-align: center;
+        }
+
+        .contact-info {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: 20px auto;
+        }
+
+        .contact-info h2 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+        }
+
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+            background-color: #e0e0e0;
+            padding: 10px 15px;
+            border-radius: 4px;
+            display: inline-block;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .contact-info a:hover {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="contact-info">
+            <h2>Quah Kai Xin</h2>
+            <p>Hello World! My name is Quah Kai Xin and I am interested in philosophy, mathematical proofs and programming.</p>
+            <p>I am currently a student at NUS School of Computing.</p>
+            <p>I believe in the overarching order of logic as well as the non-trivial significance of simplicity.</p>
+            <p>I have decided to enroll in this MIT Professional Certificate in Coding - Full Stack Development with MERN program for the sake of my own learning.</p> 
+            <p>This GitHub page is meant for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission.</p></p>
+            <a href="https://github.com/tagitables" class="btn btn-primary" target="_blank">View GitHub Profile</a>
+            </p>
+        </div>
+    </div>
+
+</body>
 </html>
