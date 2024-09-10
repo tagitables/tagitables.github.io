@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,7 +34,7 @@
         }
 
         .contact-info {
-            margin-bottom: 30px; /* Space below contact info */
+            margin-bottom: 30px;
         }
 
         .contact-info h2 {
@@ -108,7 +109,11 @@
             background: #f9f9f9;
             color: #333;
             font-size: 0.9em;
-            margin-right: 20px;
+        }
+
+        .form-group textarea {
+            height: 100px; /* Adjust height as needed */
+            resize: vertical; /* Allow vertical resizing only */
         }
 
         .form-group input:focus,
@@ -149,11 +154,10 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="contact-wrapper">
-
-
             <div class="contact-info">
                 <h2>Contact Me</h2>
                 <p>
@@ -167,7 +171,6 @@
                 </p>
             </div>
 
-            
             <div class="contact-box">
                 <h2>Leave Your Contact</h2>
                 <form id="contactForm" action="https://formspree.io/f/mgvwqgkz" method="POST" enctype="multipart/form-data">
@@ -176,31 +179,30 @@
                         <input type="email" id="email" name="email" required>
                     </div>
 
-
                     <div class="form-group">
-                        <label for="upload">File Upload:</label>
+                        <label for="upload">Upload Your Request:</label>
                         <input type="file" id="upload" name="upload">
                     </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+
                     <button type="submit">Send</button>
                 </form>
 
-
                 <div id="responseMessage"></div>
             </div>
-
 
             <div class="button-group">
 		<button onclick="window.location.href='https://github.com/tagitables'">GitHub Profile</button>
 		<button onclick="window.location.href='https://github.com/tagitables/tagitables'">Home</button>
 		<button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/contact'">Contact</button>
-		<button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/projects'">Projects</button>
+		<button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/projects'">Projects</button>>
             </div>
-
-
         </div>
     </div>
-
-
 
     <script>
         document.getElementById('contactForm').addEventListener('submit', function(event) {
@@ -219,18 +221,18 @@
                 headers: { 'Accept': 'application/json' }
             }).then(response => {
                 if (response.ok) {
-                    responseMessage.textContent = 'Thank you! Your message has been received!';
+                    responseMessage.textContent = 'Thank you! I have received your contact details.';
                     form.reset();
                 } else {
-                    responseMessage.textContent = 'Oops! There was a problem submitting your form.';
+                    responseMessage.textContent = 'Oops! There was a problem submitting your contact.';
                 }
             }).catch(() => {
-                responseMessage.textContent = 'Oops! There was a problem submitting your form.';
+                responseMessage.textContent = 'Oops! There was a problem submitting your contact.';
             }).finally(() => {
                 form.querySelector('button').disabled = false;
             });
         });
     </script>
-
 </body>
+
 </html>
