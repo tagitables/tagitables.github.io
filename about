@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Contact Me</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -54,7 +59,10 @@
             background-color: #ccc;
         }
     </style>
+
 </head>
+
+
 <body>
 
     <div class="container">
@@ -64,8 +72,7 @@
               <p>To highlight, I believe in the overarching order of logic as well as the non-trivial significance of simplicity.</p>
               <p>I am currently a student at NUS School of Computing.</p>
               <p>I have also enrolled in the MIT Professional Certificate in Coding - Full Stack Development with MERN program.</p> 
-              <p>This Github profile is primarily meant for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission for a start.</p></p>
-            </p>
+              <p>This Github profile is primarily meant for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission for a start.</p>
         </div>
     </div>
 
