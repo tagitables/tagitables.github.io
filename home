@@ -33,13 +33,15 @@
         }
 
         .intro-box h2 {
-            margin: 0 0 15px;
+            font-family: "Helvetica Neue", sans-serif;
+	    margin: 0 0 15px;
             font-size: 1.5em;
             color: #333;
         }
 
         .intro-box h3 {
-            margin: 15px 0 10px;
+	    font-family: "Helvetica Neue", sans-serif;            
+	    margin: 15px 0 10px;
             font-size: 1.2em;
             color: #555;
         }
@@ -85,7 +87,7 @@
     <div class="container">
         <div class="intro-box">
             
-            <h1>About Me</h1>
+            <h2>About Me</h2>
         
             <p>Hello World! My name is Quah Kai Xin and I am interested in philosophy, mathematical proofs and programming.</p>
             <p>To highlight, I believe in the overarching order of logic as well as the non-trivial significance of simplicity.</p>
