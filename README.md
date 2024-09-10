@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   
-    <div class="container">
+    <body>
         <h2>Quah Kai Xin</h2>
         <p>Hello World! My name is Quah Kai Xin and I am interested in philosophy, mathematical proofs and programming.</p>
         <p>I am currently a student at NUS School of Computing.</p>
@@ -21,7 +21,7 @@
             <li><a href="https://github.com/tagitables/contact" target="_blank">Contact</a></li>
             <li><a href="https://github.com/tagitables/projects" target="_blank">Projects</a></li>
         </ul>
-    </div>
+    </body>
   
   </html>
 
