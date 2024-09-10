@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me</title>
+    <title>Projects</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Helvetica Neue", sans-serif;
             background-color: #f0f0f0;
             color: #333;
             margin: 0;
@@ -18,52 +18,91 @@
         }
 
         .container {
+            max-width: 800px;
+            width: 100%;
             text-align: center;
         }
 
-        .contact-info {
-            background-color: #fff;
+        .intro-box {
+            background: #fff;
             padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            max-width: 400px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             margin: 20px auto;
+            text-align: left;
         }
 
-        .contact-info h2 {
-            margin-top: 0;
+        .intro-box h2 {
+            font-family: "Helvetica Neue", sans-serif;
+	    margin: 0 0 15px;
+            font-size: 1.5em;
             color: #333;
         }
 
-        .contact-info p {
+        .intro-box h3 {
+	    font-family: "Helvetica Neue", sans-serif;            
+	    margin: 15px 0 10px;
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        .intro-box p {
             margin: 10px 0;
+            line-height: 1.6;
         }
 
-        .contact-info a {
-            color: #333;
-            text-decoration: none;
-            background-color: #e0e0e0;
+        .intro-box ul {
+            list-style-type: disc;
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        .intro-box ul li {
+            margin-bottom: 5px;
+        }
+
+        .intro-box img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .intro-box button {
+            background: #333;
+            color: #fff;
+            border: none;
             padding: 10px 15px;
             border-radius: 4px;
-            display: inline-block;
-            font-size: 16px;
-            transition: background-color 0.3s;
+            cursor: pointer;
+            font-size: 0.9em;
+            margin-top: 15px;
         }
 
-        .contact-info a:hover {
-            background-color: #ccc;
+        .intro-box button:hover {
+            background: #555;
         }
     </style>
 </head>
 <body>
+	<div class="container">
+	
+		<div class="intro-box">
+            
+         	   <h2>Project</h2>
+        
+			<p>Restricted Content: There are no existing projects available for public access.</p>
 
-    <div class="container">
-        <div class="contact-info">
-            <h2>Projects</h2>
-              <p>Existing projects have not been made available for public access.</p>
-            </p>
-        </div>
-    </div>
+		<span>
+		<div class="button-group">
+			<button onclick="window.location.href='https://github.com/tagitables'">GitHub Profile</button>
+        		<button onclick="window.location.href='https://github.com/tagitables/tagitables'">Home</button>
+			<button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/contact'">Contact</button>
+			<button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/projects'">Projects</button>
+		</div>
+		</span>
 
+		</div>
+	</div>
+	
 </body>
 </html>
