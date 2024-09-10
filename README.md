@@ -37,7 +37,7 @@
   </head>
   
         <h2>Quah Kai Xin</h2>
-        <p>Hello World! My name is Quah Kai Xin and I am interested in philosophy, mathematical proofs and programming.</p>
+        <p>Hello World! My name is Quah Kai Xin and I am interested in philosophy and programming.</p>
         <p>I am currently a student at NUS School of Computing.</p>
         <p>I believe in the overarching order of logic as well as the non-trivial significance of simplicity.</p>
         <p>I have decided to enroll in this MIT Professional Certificate in Coding - Full Stack Development with MERN program for the sake of my own learning.</p> 
