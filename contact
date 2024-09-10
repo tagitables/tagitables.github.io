@@ -32,7 +32,46 @@
             text-align: left;
         }
 
-        .contact-wrapper h2 {
+        .contact-info {
+            margin-bottom: 30px; /* Space below contact info */
+        }
+
+        .contact-info h2 {
+            margin: 0 0 15px;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .contact-info p {
+            display: inline-block;
+            margin: 0 10px; /* Horizontal spacing between buttons */
+        }
+
+        .contact-info a {
+            color: #fff;
+            text-decoration: none;
+            background: #333; /* Match background color with "Send" button */
+            padding: 8px 12px;
+            border-radius: 4px;
+            display: inline-block;
+            font-size: 0.9em;
+            transition: background 0.3s; /* Smooth transition for hover effect */
+        }
+
+        .contact-info a:hover {
+            background: #555; /* Match hover color with "Send" button */
+        }
+
+        .contact-box {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            text-align: left;
+        }
+
+        .contact-box h2 {
             margin: 0 0 15px;
             font-size: 1.5em;
             color: #333;
@@ -76,6 +115,7 @@
             border-radius: 4px;
             cursor: pointer;
             font-size: 0.9em;
+            transition: background 0.3s; /* Smooth transition for hover effect */
         }
 
         button:hover {
@@ -88,24 +128,6 @@
             color: #666;
         }
 
-        .contact-info p {
-            margin: 10px 0;
-        }
-
-        .contact-info a {
-            color: #333;
-            text-decoration: none;
-            background: #e0e0e0;
-            padding: 8px 12px;
-            border-radius: 4px;
-            display: inline-block;
-            font-size: 0.9em;
-        }
-
-        .contact-info a:hover {
-            background: #ccc;
-        }
-
         .button-group {
             display: flex;
             justify-content: flex-start; /* Align buttons to the left */
@@ -114,24 +136,13 @@
 
         .button-group button {
             margin: 0 5px; /* Add horizontal spacing between buttons */
-            background: #333; /* Match background color with "Send" button */
-            color: #fff; /* Match text color with "Send" button */
-            border: none; /* Remove border for consistency */
-            padding: 10px 15px; /* Match padding with "Send" button */
-            border-radius: 4px; /* Match border-radius with "Send" button */
-            cursor: pointer;
-            font-size: 0.9em; /* Match font size with "Send" button */
-            transition: background 0.3s; /* Smooth transition for hover effect */
-        }
-
-        .button-group button:hover {
-            background: #555; /* Match hover color with "Send" button */
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="contact-wrapper">
+            <!-- Contact Info Section -->
             <div class="contact-info">
                 <h2>Contact Me</h2>
                 <p><a href="mailto:blah@gmail.com">📧 blah@gmail.com</a></p>
@@ -140,6 +151,7 @@
                 <p><a href="https://github.com/blah">@blah</a></p>
             </div>
 
+            <!-- Contact Form Section -->
             <div class="contact-box">
                 <h2>Leave Your Contact</h2>
                 <form id="contactForm" action="https://formspree.io/f/mgvwqgkz" method="POST" enctype="multipart/form-data">
