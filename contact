@@ -26,45 +26,48 @@
     </style>
 </head>
 
-<body>
-    <h2>Contact</h2>
-    <p>
-        <a href="mailto:quahkaixin@gmail.com" class="btn">📧 quahkaixin@gmail.com</a>
-    </p>
-    <p>
-        <a href="tel:+650123456789" class="btn">☎️ +65 0123456789</a>
-    </p>
-    <p>
-        <a href="loc:singapore" class="btn">📍 singapore</a>
-    </p>
-    <p>
-        <a href="https://github.com/tagitables" class="btn">@tagitables</a>
-    </p>
+    <body>
+        <h2>Contact</h2>
+        <p>
+            <a href="mailto:quahkaixin@gmail.com" class="btn">📧 quahkaixin@gmail.com</a>
+        </p>
+        <p>
+            <a href="tel:+650123456789" class="btn">☎️ +65 0123456789</a>
+        </p>
+        <p>
+            <a href="loc:singapore" class="btn">📍 singapore</a>
+        </p>
+        <p>
+            <a href="https://github.com/tagitables" class="btn">@tagitables</a>
+        </p>
 
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-        google.charts.load('current', {
-            'packages': ['geochart'],
-        });
-        google.charts.setOnLoadCallback(drawRegionsMap);
+    <body>
+        <h2>Singapore on the World Map</h2>
 
-        function drawRegionsMap() {
-            var data = google.visualization.arrayToDataTable([
-                ['Country'],
-                ['Singapore']
-            ]);
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+            google.charts.load('current', {
+                'packages': ['geochart'],
+            });
+            google.charts.setOnLoadCallback(drawRegionsMap);
 
-            var options = {
-                colorAxis: { colors: ['#e5e5e5', '#0d3378'] }
-            };
+            function drawRegionsMap() {
+                var data = google.visualization.arrayToDataTable([
+                    ['Country', 'Popularity'],
+                    ['Singapore', 100]
+                ]);
 
-            var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+                var options = {
+                    colorAxis: { colors: ['#e5e5e5', '#0d3378'] }
+                };
 
-            chart.draw(data, options);
-        }
-    </script>
+                var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
 
-    <div id="regions_div" style="width: 900px; height: 500px;"></div>
-</body>
+                chart.draw(data, options);
+            }
+         </script>
 
+        <div id="regions_div" style="width: 900px; height: 500px;"></div>
+
+    </body>
 </html>
