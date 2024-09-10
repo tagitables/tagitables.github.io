@@ -36,10 +36,10 @@
 <body>
     <h2>Contact</h2>
     <p>
-        <a href="mailto:quahkaixain@gmail.com" class="btn">📧 quahkaixin@gmail.com</a>
+        <a href="mailto:quahkaixin@gmail.com" class="btn">📧 quahkaixin@gmail.com</a>
     </p>
     <p>
-        <a href="tel:+65 0123456789" class="btn">☎️ +65 0123456789</a>
+        <a href="tel:+1234567890" class="btn">☎️ +1234567890</a>
     </p>
     <p>
         <a href="https://www.google.com/maps/place/Singapore" class="btn">📍 Singapore</a>
