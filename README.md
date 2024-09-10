@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
   
-        <h2>Quah Kai Xin</h2>
-        <p>Hello World! My name is Quah Kai Xin and I am interested in philosophy, mathematical proofs and programming.</p>
-        <p>I am currently a student at NUS School of Computing.</p>
-        <p>I believe in the overarching order of logic as well as the non-trivial significance of simplicity.</p>
-        <p>I have decided to enroll in this MIT Professional Certificate in Coding - Full Stack Development with MERN program for the sake of my own learning.</p> 
-        <p>This GitHub page is meant for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission.</p></p
+<body>
+  <h2>Quah Kai Xin</h2>
+  
+  <p><a href="https://github.com/tagitables/README.md" target="_blank">GitHub Profile</a> |
+  <a href="https://github.com/tagitables/home" target="_blank">Home</a> |
+  <a href="https://github.com/tagitables/about" target="_blank">About</a> |
+  <a href="https://github.com/tagitables/contact" target="_blank">Contact</a> |
+  <a href="https://github.com/tagitables/projects" target="_blank">Projects</a>
+        
+  <p>Hello World! My name is Quah Kai Xin and I am interested in philosophy, mathematical proofs and programming.</p>
+  <p>I am currently a student at NUS School of Computing.</p>
+  <p>I believe in the overarching order of logic as well as the non-trivial significance of simplicity.</p>
+  <p>I have decided to enroll in this MIT Professional Certificate in Coding - Full Stack Development with MERN program for the sake of my own learning.</p> 
+  <p>This GitHub page is meant for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission.</p></p>
 
-    
-        <a href="https://github.com/tagitables/README.md" target="_blank">GitHub Profile</a> |
-        <a href="https://github.com/tagitables/home" target="_blank">Home</a> |
-        <a href="https://github.com/tagitables/about" target="_blank">About</a> |
-        <a href="https://github.com/tagitables/contact" target="_blank">Contact</a> |
-        <a href="https://github.com/tagitables/projects" target="_blank">Projects</a>
-  
-  </html>
+</body>
+</html>
+
+
+<!-- Ignore Draft Section -->
 
 <!--
 <!DOCTYPE html>
@@ -31,17 +36,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   
-  <body>
-    <h2>Quah Kai Xin</h2>
-    <p>Hello World! My name is Quah Kai Xin and I am interested in philosophy, mathematical proofs and programming.</p>
-    <p>I am currently a student at NUS School of Computing.</p>
-    <p>I believe in the overarching order of logic as well as the non-trivial significance of simplicity.</p>
-    <p>I have decided to enroll in this MIT Professional Certificate in Coding - Full Stack Development with MERN program for the sake of my own learning.</p> 
-    <p>This GitHub page is meant for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission.</p></p>
-    <a href="https://github.com/tagitables" class="btn btn-primary" target="_blank">View GitHub Profile</a>    
- </body>
+        <h2>Quah Kai Xin</h2>
+        <p>Hello World! My name is Quah Kai Xin and I am interested in philosophy, mathematical proofs and programming.</p>
+        <p>I am currently a student at NUS School of Computing.</p>
+        <p>I believe in the overarching order of logic as well as the non-trivial significance of simplicity.</p>
+        <p>I have decided to enroll in this MIT Professional Certificate in Coding - Full Stack Development with MERN program for the sake of my own learning.</p> 
+        <p>This GitHub page is meant for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission.</p></p>
 
+    
+        <a href="https://github.com/tagitables/README.md" target="_blank">GitHub Profile</a> |
+        <a href="https://github.com/tagitables/home" target="_blank">Home</a> |
+        <a href="https://github.com/tagitables/about" target="_blank">About</a> |
+        <a href="https://github.com/tagitables/contact" target="_blank">Contact</a> |
+        <a href="https://github.com/tagitables/projects" target="_blank">Projects</a>
+  
 </html>
+-->
+
+<!--
+GitHub Profile Readme: On GitHub, profile readmes are rendered using Markdown with some embedded HTML support. Simple HTML tags are supported, but some more complex HTML and CSS might not be rendered as expected.
 -->
 
 <!--
