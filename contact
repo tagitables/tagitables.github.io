@@ -105,6 +105,21 @@
         .contact-info a:hover {
             background: #ccc;
         }
+
+        .button-group {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        .button-group button {
+            margin: 5px 0;
+            background: #007bff;
+        }
+
+        .button-group button:hover {
+            background: #0056b3;
+        }
     </style>
 </head>
 <body>
@@ -130,6 +145,13 @@
                 <button type="submit">Send</button>
             </form>
             <div id="responseMessage"></div>
+
+            <div class="button-group">
+		<button onclick="window.location.href='https://github.com/tagitables'">GitHub Profile</button>
+		<button onclick="window.location.href='https://github.com/tagitables/tagitables'">Home</button>
+		<button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/contact'">Contact</button>
+		<button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/projects'">Projects</button>
+            </div>
         </div>
     </div>
 
@@ -162,15 +184,5 @@
             });
         });
     </script>
-
-    	<p>	
-	<div class="button-group">
-		<button onclick="window.location.href='https://github.com/tagitables'">GitHub Profile</button>
-		<button onclick="window.location.href='https://github.com/tagitables/tagitables'">Home</button>
-		<button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/contact'">Contact</button>
-		<button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/projects'">Projects</button>
-	</div>
-	</p>
-
 </body>
 </html>
