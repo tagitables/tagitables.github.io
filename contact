@@ -119,7 +119,7 @@
         </div>
 
         <div class="contact-box">
-            <h2>Leave Your Message</h2>
+            <h2>Leave Your Contact Details</h2>
             <form id="contactForm">
                 <div class="form-group">
                     <label for="name">Name:</label>
