@@ -18,45 +18,48 @@
         }
 
         .container {
-            text-align: center;
             max-width: 600px;
             width: 100%;
+            text-align: center;
         }
 
         .contact-box {
             background: #fff;
-            padding: 15px;
-            border-radius: 6px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             margin: 20px auto;
+            text-align: left; /* Align text to the left for form elements */
         }
 
         .contact-box h2 {
-            margin-top: 0;
-            font-size: 1.4em;
+            margin: 0 0 15px;
+            font-size: 1.5em;
             color: #333;
         }
 
         .form-group {
-            margin-bottom: 12px;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 15px;
         }
 
         .form-group label {
-            display: block;
-            margin-bottom: 4px;
+            margin-bottom: 5px;
             color: #666;
             font-size: 0.9em;
         }
 
         .form-group input,
         .form-group textarea {
-            width: 100%;
-            padding: 6px;
+            width: calc(100% - 20px); /* Adjust width calculation */
+            padding: 8px;
             border: 1px solid #ccc;
             border-radius: 4px;
             background: #f9f9f9;
             color: #333;
             font-size: 0.9em;
+            margin-right: 20px; /* Ensure right margin for spacing */
         }
 
         .form-group input:focus,
@@ -69,7 +72,7 @@
             background: #333;
             color: #fff;
             border: none;
-            padding: 8px 12px;
+            padding: 10px 15px;
             border-radius: 4px;
             cursor: pointer;
             font-size: 0.9em;
@@ -80,13 +83,13 @@
         }
 
         #responseMessage {
-            margin-top: 12px;
+            margin-top: 15px;
             font-size: 1em;
             color: #666;
         }
 
         .contact-info p {
-            margin: 8px 0;
+            margin: 10px 0;
         }
 
         .contact-info a {
@@ -108,10 +111,10 @@
     <div class="container">
         <div class="contact-info">
             <h2>Contact Me</h2>
-            <p><a href="mailto:quahkaixin@gmail.com">📧 quahkaixin@gmail.com</a></p>
+            <p><a href="mailto:blah@gmail.com">📧 blah@gmail.com</a></p>
             <p><a href="tel:+1234567890">☎️ +1234567890</a></p>
             <p><a href="https://www.google.com/maps/place/Singapore">📍 Singapore</a></p>
-            <p><a href="https://github.com/tagitables">@tagitables</a></p>
+            <p><a href="https://github.com/blah">@blah</a></p>
         </div>
         <div class="contact-box">
             <h2>Leave Your Contact</h2>
