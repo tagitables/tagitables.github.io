@@ -16,10 +16,10 @@
   <a href="https://github.com/tagitables/tagitables/blob/main/projects" target="_blank">Projects</a>
         
   <p>Hello World! My name is Quah Kai Xin and I am interested in philosophy, mathematical proofs and programming.</p>
+  <p>To highlight, I believe in the overarching order of logic as well as the non-trivial significance of simplicity.</p>
   <p>I am currently a student at NUS School of Computing.</p>
-  <p>I believe in the overarching order of logic as well as the non-trivial significance of simplicity.</p>
-  <p>I have decided to enroll in this MIT Professional Certificate in Coding - Full Stack Development with MERN program for the sake of my own learning.</p> 
-  <p>This GitHub page is meant for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission.</p></p>
+  <p>I have also enrolled in the MIT Professional Certificate in Coding - Full Stack Development with MERN program.</p> 
+  <p>This Github profile is primarily meant for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission for a start.</p></p>
 
 </body>
 </html>
