@@ -90,12 +90,7 @@
             
          	   <h2>Home</h2>
         
-			<p>Hello World! My name is Quah Kai Xin and I am interested in philosophy and programming.</p>
-			<p>I live by the principle of parsimony and believe in the significant value of simplicity.</p>
-			<p>I am currently a student at NUS School of Computing.</p>
-			<p>I am also enrolled in the MIT Professional Certificate in Coding - Full Stack Development with MERN program.</p> 
-			<p>This GitHub profile is primarily intended for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission.</p></p>
-
+			<p>Click on the button below to explore:</p>
 		<span>
 		<div class="button-group">
 			<button onclick="window.location.href='https://github.com/tagitables'">GitHub Profile</button>
