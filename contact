@@ -114,19 +114,18 @@
 
         .button-group button {
             margin: 0 5px; /* Add horizontal spacing between buttons */
-            background: #ccc; /* Grey background */
-            color: #333; /* Dark text color */
-            border: 1px solid #bbb; /* Light border */
-            padding: 8px 12px; /* Padding for a minimalist look */
-            border-radius: 4px; /* Rounded corners */
+            background: #333; /* Match background color with "Send" button */
+            color: #fff; /* Match text color with "Send" button */
+            border: none; /* Remove border for consistency */
+            padding: 10px 15px; /* Match padding with "Send" button */
+            border-radius: 4px; /* Match border-radius with "Send" button */
             cursor: pointer;
-            font-size: 0.9em; /* Adjust font size */
-            transition: background 0.3s, border-color 0.3s; /* Smooth transition */
+            font-size: 0.9em; /* Match font size with "Send" button */
+            transition: background 0.3s; /* Smooth transition for hover effect */
         }
 
         .button-group button:hover {
-            background: #aaa; /* Darker grey on hover */
-            border-color: #888; /* Darker border on hover */
+            background: #555; /* Match hover color with "Send" button */
         }
     </style>
 </head>
