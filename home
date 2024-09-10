@@ -96,17 +96,17 @@
 			<p>I have also enrolled in the MIT Professional Certificate in Coding - Full Stack Development with MERN program.</p> 
 			<p>This Github profile is primarily meant for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission for a start.</p></p>
 
+		<span>
+		<div class="button-group">
+			<button onclick="window.location.href='https://github.com/tagitables'">GitHub Profile</button>
+        		<button onclick="window.location.href='https://github.com/tagitables/tagitables'">Home</button>
+			<button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/contact'">Contact</button>
+			<button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/projects'">Projects</button>
+		</div>
+		</span>
+
 		</div>
 	</div>
 	
-	<span>
-	<div class="button-group">
-		<button onclick="window.location.href='https://github.com/tagitables'">GitHub Profile</button>
-        	<button onclick="window.location.href='https://github.com/tagitables/tagitables'">Home</button>
-		<button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/contact'">Contact</button>
-		<button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/projects'">Projects</button>
-	</div>
-	</span>
-
 </body>
 </html>
