@@ -62,6 +62,15 @@
             text-decoration: underline;
         }
 
+        .contact-info a span {
+            filter: grayscale(100%); /* Apply grayscale filter to icons */
+            transition: filter 0.3s; /* Smooth transition for hover effect */
+        }
+
+        .contact-info a:hover span {
+            filter: none; /* Remove grayscale on hover */
+        }
+
         .contact-box {
             background: #fff;
             padding: 20px;
@@ -146,13 +155,13 @@
             <div class="contact-info">
                 <h2>Contact Me</h2>
                 <p>
-                    <span><a href="mailto:blah@gmail.com">📧 blah@gmail.com</a></span>
+                    <span><a href="mailto:blah@gmail.com"><span>📧 blah@gmail.com</span></a></span>
                     <span>|</span>
-                    <span><a href="tel:+1234567890">☎️ +1234567890</a></span>
+                    <span><a href="tel:+1234567890"><span>☎️ +1234567890</span></a></span>
                     <span>|</span>
-                    <span><a href="https://www.google.com/maps/place/Singapore">📍 Singapore</a></span>
+                    <span><a href="https://www.google.com/maps/place/Singapore"><span>📍 Singapore</span></a></span>
                     <span>|</span>
-                    <span><a href="https://github.com/blah">GitHub Profile</a></span>
+                    <span><a href="https://github.com/blah"><span>GitHub Profile</span></a></span>
                 </p>
             </div>
 
