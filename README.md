@@ -9,11 +9,11 @@
 <body>
   <h2>Quah Kai Xin</h2>
   
-  <p><a href="https://github.com/tagitables/README.md" target="_blank">GitHub Profile</a> |
-  <a href="https://github.com/tagitables/home" target="_blank">Home</a> |
-  <a href="https://github.com/tagitables/about" target="_blank">About</a> |
-  <a href="https://github.com/tagitables/contact" target="_blank">Contact</a> |
-  <a href="https://github.com/tagitables/projects" target="_blank">Projects</a>
+  <p><a href="https://github.com/tagitables/tagitables" target="_blank">GitHub Profile</a> |
+  <a href="https://github.com/tagitables" target="_blank">Home</a> |
+  <a href="https://github.com/tagitables/tagitables/about" target="_blank">About</a> |
+  <a href="https://github.com/tagitables/tagitables/contact" target="_blank">Contact</a> |
+  <a href="https://github.com/tagitables/tagitables/projects" target="_blank">Projects</a>
         
   <p>Hello World! My name is Quah Kai Xin and I am interested in philosophy, mathematical proofs and programming.</p>
   <p>I am currently a student at NUS School of Computing.</p>
