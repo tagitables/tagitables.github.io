@@ -43,23 +43,23 @@
         }
 
         .contact-info p {
+            margin: 0;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .contact-info span {
             display: inline-block;
-            margin: 0 10px; /* Horizontal spacing between buttons */
+            margin: 0 10px;
         }
 
         .contact-info a {
-            color: #fff;
+            color: #333;
             text-decoration: none;
-            background: #333; /* Match background color with "Send" button */
-            padding: 8px 12px;
-            border-radius: 4px;
-            display: inline-block;
-            font-size: 0.9em;
-            transition: background 0.3s; /* Smooth transition for hover effect */
         }
 
         .contact-info a:hover {
-            background: #555; /* Match hover color with "Send" button */
+            text-decoration: underline;
         }
 
         .contact-box {
@@ -145,10 +145,15 @@
             <!-- Contact Info Section -->
             <div class="contact-info">
                 <h2>Contact Me</h2>
-                <p><a href="mailto:blah@gmail.com">📧 blah@gmail.com</a></p>
-                <p><a href="tel:+1234567890">☎️ +1234567890</a></p>
-                <p><a href="https://www.google.com/maps/place/Singapore">📍 Singapore</a></p>
-                <p><a href="https://github.com/blah">@blah</a></p>
+                <p>
+                    <span><a href="mailto:blah@gmail.com">📧 blah@gmail.com</a></span>
+                    <span>|</span>
+                    <span><a href="tel:+1234567890">☎️ +1234567890</a></span>
+                    <span>|</span>
+                    <span><a href="https://www.google.com/maps/place/Singapore">📍 Singapore</a></span>
+                    <span>|</span>
+                    <span><a href="https://github.com/blah">GitHub Profile</a></span>
+                </p>
             </div>
 
             <!-- Contact Form Section -->
