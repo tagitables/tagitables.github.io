@@ -44,9 +44,9 @@
 
         .contact-info p {
             margin: 0;
-            font-size: 0.8em; /* Smaller font size */
+            font-size: 0.8em;
             color: #666;
-            line-height: 1.6; /* Improve readability */
+            line-height: 1.6;
         }
 
         .contact-info span {
@@ -64,12 +64,12 @@
         }
 
         .contact-info a span {
-            filter: grayscale(100%); /* Apply grayscale filter to icons */
-            transition: filter 0.3s; /* Smooth transition for hover effect */
+            filter: grayscale(100%);
+            transition: filter 0.3s;
         }
 
         .contact-info a:hover span {
-            filter: none; /* Remove grayscale on hover */
+            filter: none;
         }
 
         .contact-box {
@@ -125,7 +125,7 @@
             border-radius: 4px;
             cursor: pointer;
             font-size: 0.9em;
-            transition: background 0.3s; /* Smooth transition for hover effect */
+            transition: background 0.3s;
         }
 
         button:hover {
@@ -140,19 +140,20 @@
 
         .button-group {
             display: flex;
-            justify-content: flex-start; /* Align buttons to the left */
+            justify-content: flex-start;
             margin-top: 20px;
         }
 
         .button-group button {
-            margin: 0 5px; /* Add horizontal spacing between buttons */
+            margin: 0 5px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="contact-wrapper">
-            <!-- Contact Info Section -->
+
+
             <div class="contact-info">
                 <h2>Contact Me</h2>
                 <p>
@@ -166,7 +167,7 @@
                 </p>
             </div>
 
-            <!-- Contact Form Section -->
+            
             <div class="contact-box">
                 <h2>Leave Your Contact</h2>
                 <form id="contactForm" action="https://formspree.io/f/mgvwqgkz" method="POST" enctype="multipart/form-data">
@@ -174,24 +175,32 @@
                         <label for="email">Email:</label>
                         <input type="email" id="email" name="email" required>
                     </div>
+
+
                     <div class="form-group">
                         <label for="upload">File Upload:</label>
                         <input type="file" id="upload" name="upload">
                     </div>
                     <button type="submit">Send</button>
                 </form>
+
+
                 <div id="responseMessage"></div>
             </div>
 
-            <!-- Button Group -->
+
             <div class="button-group">
 		<button onclick="window.location.href='https://github.com/tagitables'">GitHub Profile</button>
 		<button onclick="window.location.href='https://github.com/tagitables/tagitables'">Home</button>
 		<button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/contact'">Contact</button>
 		<button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/projects'">Projects</button>
             </div>
+
+
         </div>
     </div>
+
+
 
     <script>
         document.getElementById('contactForm').addEventListener('submit', function(event) {
@@ -222,5 +231,6 @@
             });
         });
     </script>
+
 </body>
 </html>
