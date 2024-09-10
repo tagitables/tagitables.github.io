@@ -10,7 +10,7 @@
   <h2>Quah Kai Xin</h2>
   
   <p><a href="https://github.com/tagitables/tagitables" target="_blank">GitHub Profile</a> |
-  <a href="https://github.com/tagitables/blob/main/README.md" target="_blank">Home</a> |
+  <a href="https://github.com/tagitables/tagitables/blob/main/README.md" target="_blank">Home</a> |
   <a href="https://github.com/tagitables/tagitables/blob/main/about" target="_blank">About</a> |
   <a href="https://github.com/tagitables/tagitables/blob/main/contact" target="_blank">Contact</a> |
   <a href="https://github.com/tagitables/tagitables/blob/main/projects" target="_blank">Projects</a>
