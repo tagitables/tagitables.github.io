@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        body {
+            font-family: "Helvetica Neue", sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .contact-wrapper {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            text-align: left;
+        }
+
+        .contact-info {
+            margin-bottom: 30px;
+        }
+
+        .contact-info h2 {
+            font-family: "Helvetica Neue", sans-serif;
+            margin: 0 0 15px;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .contact-info p {
+            font-family: "Helvetica Neue", sans-serif;
+            margin: 0;
+            font-size: 0.8em;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .contact-info span {
+            font-family: "Helvetica Neue", sans-serif;
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .contact-info a {
+            font-family: "Helvetica Neue", sans-serif;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-info a span {
+            font-family: "Helvetica Neue", sans-serif;
+            filter: grayscale(100%);
+            transition: filter 0.3s;
+        }
+
+        .contact-info a:hover span {
+            filter: none;
+        }
+
+        .contact-box {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            text-align: left;
+        }
+
+        .contact-box h2 {
+            font-family: "Helvetica Neue", sans-serif;
+            margin: 0 0 15px;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            font-family: "Helvetica Neue", sans-serif;
+            margin-bottom: 5px;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            font-family: "Helvetica Neue", sans-serif;
+            width: calc(100% - 20px);
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background: #f9f9f9;
+            color: #333;
+            font-size: 0.9em;
+        }
+
+        .form-group textarea {
+            height: 100px; /* Adjust height as needed */
+            resize: vertical; /* Allow vertical resizing only */
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            border-color: #999;
+            outline: none;
+        }
+
+        button {
+            font-family: "Helvetica Neue", sans-serif;
+            background: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #555;
+        }
+
+        #responseMessage {
+            font-family: "Helvetica Neue", sans-serif;
+            margin-top: 15px;
+            font-size: 1em;
+            color: #666;
+        }
+
+        .button-group {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 20px;
+        }
+
+        .button-group button {
+            font-family: "Helvetica Neue", sans-serif;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h3>Contact Me</h3>
+                <p>
+                    <span><a href="mailto:tagitables@gmail.com"><span>📧 tagitables@gmail.com</span></a></span>
+                    <span>|</span>
+                    <span><a href="tel:+650123456789"><span>☎️ +65 0123456789</span></a></span>
+                    <span>|</span>
+                    <span><a href="https://www.google.com/maps/place/Singapore"><span>📍 Singapore</span></a></span>
+                </p>
+            </div>
+
+            <div class="contact-box">
+                <h1>Contact Form</h1>
+                <form id="contactForm" action="https://formspree.io/f/mgvwqgkz" method="POST" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="upload">Upload Supporting Documents:</label>
+                        <input type="file" id="upload" name="upload">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+
+                    <button type="submit">Send</button>
+                </form>
+
+                <div id="responseMessage"></div>
+            </div>
+
+
+            <!--
+            <div class="button-group">
+                <button onclick="window.location.href='https://github.com/tagitables'">GitHub Profile</button>
+                <button onclick="window.location.href='https://github.com/tagitables/tagitables'">Home</button>
+                <button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/contact'">Contact</button>
+                <button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/projects'">Projects</button>
+            </div>
+            -->
+
+
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const form = event.target;
+            const responseMessage = document.getElementById('responseMessage');
+
+            form.querySelector('button').disabled = true;
+
+            const formData = new FormData(form);
+
+            fetch(form.action, {
+                method: form.method,
+                body: formData,
+                headers: { 'Accept': 'application/json' }
+            }).then(response => {
+                if (response.ok) {
+                    responseMessage.textContent = 'Thank you! I have received your contact details.';
+                    form.reset();
+                } else {
+                    responseMessage.textContent = 'Oops! There was a problem submitting your contact.';
+                }
+            }).catch(() => {
+                responseMessage.textContent = 'Oops! There was a problem submitting your contact.';
+            }).finally(() => {
+                form.querySelector('button').disabled = false;
+            });
+        });
+    </script>
+</body>
+
+</html>
