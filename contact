@@ -181,7 +181,7 @@
             </div>
 
             <div class="contact-box">
-                <h2>Contact Me</h2>
+                <h3>Contact Form</h3>
                 <form id="contactForm" action="https://formspree.io/f/mgvwqgkz" method="POST" enctype="multipart/form-data">
                     <div class="form-group">
                         <label for="name">Name:</label>
