@@ -170,7 +170,7 @@
     <div class="container">
         <div class="contact-wrapper">
             <div class="contact-info">
-                <h2>Contact Me</h2>
+                <h3>Contact Me</h3>
                 <p>
                     <span><a href="mailto:tagitables@gmail.com"><span>📧 tagitables@gmail.com</span></a></span>
                     <span>|</span>
@@ -181,7 +181,7 @@
             </div>
 
             <div class="contact-box">
-                <h3>Contact Form</h3>
+                <h1>Contact Form</h1>
                 <form id="contactForm" action="https://formspree.io/f/mgvwqgkz" method="POST" enctype="multipart/form-data">
                     <div class="form-group">
                         <label for="name">Name:</label>
