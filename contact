@@ -44,8 +44,9 @@
 
         .contact-info p {
             margin: 0;
-            font-size: 0.9em;
+            font-size: 0.8em; /* Smaller font size */
             color: #666;
+            line-height: 1.6; /* Improve readability */
         }
 
         .contact-info span {
