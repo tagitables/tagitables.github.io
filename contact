@@ -38,12 +38,14 @@
         }
 
         .contact-info h2 {
+            font-family: "Helvetica Neue", sans-serif;
             margin: 0 0 15px;
             font-size: 1.5em;
             color: #333;
         }
 
         .contact-info p {
+            font-family: "Helvetica Neue", sans-serif;
             margin: 0;
             font-size: 0.8em;
             color: #666;
@@ -51,11 +53,13 @@
         }
 
         .contact-info span {
+            font-family: "Helvetica Neue", sans-serif;
             display: inline-block;
             margin: 0 10px;
         }
 
         .contact-info a {
+            font-family: "Helvetica Neue", sans-serif;
             color: #333;
             text-decoration: none;
         }
@@ -65,6 +69,7 @@
         }
 
         .contact-info a span {
+            font-family: "Helvetica Neue", sans-serif;
             filter: grayscale(100%);
             transition: filter 0.3s;
         }
@@ -83,6 +88,7 @@
         }
 
         .contact-box h2 {
+            font-family: "Helvetica Neue", sans-serif;
             margin: 0 0 15px;
             font-size: 1.5em;
             color: #333;
@@ -95,6 +101,7 @@
         }
 
         .form-group label {
+            font-family: "Helvetica Neue", sans-serif;
             margin-bottom: 5px;
             color: #666;
             font-size: 0.9em;
@@ -102,6 +109,7 @@
 
         .form-group input,
         .form-group textarea {
+            font-family: "Helvetica Neue", sans-serif;
             width: calc(100% - 20px);
             padding: 8px;
             border: 1px solid #ccc;
@@ -123,6 +131,7 @@
         }
 
         button {
+            font-family: "Helvetica Neue", sans-serif;
             background: #333;
             color: #fff;
             border: none;
@@ -138,6 +147,7 @@
         }
 
         #responseMessage {
+            font-family: "Helvetica Neue", sans-serif;
             margin-top: 15px;
             font-size: 1em;
             color: #666;
@@ -150,6 +160,7 @@
         }
 
         .button-group button {
+            font-family: "Helvetica Neue", sans-serif;
             margin: 0 5px;
         }
     </style>
@@ -206,10 +217,10 @@
             </div>
 
             <div class="button-group">
-		<button onclick="window.location.href='https://github.com/tagitables'">GitHub Profile</button>
-		<button onclick="window.location.href='https://github.com/tagitables/tagitables'">Home</button>
-		<button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/contact'">Contact</button>
-		<button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/projects'">Projects</button>>
+                <button onclick="window.location.href='https://github.com/tagitables'">GitHub Profile</button>
+                <button onclick="window.location.href='https://github.com/tagitables/tagitables'">Home</button>
+                <button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/contact'">Contact</button>
+                <button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/projects'">Projects</button>
             </div>
         </div>
     </div>
