@@ -97,5 +97,13 @@
 
         </div>
     </div>
+
+	<div class="button-group">
+	    <a href="page1.html" class="btn">Page 1</a>
+	    <a href="page2.html" class="btn">Page 2</a>
+	    <a href="page3.html" class="btn">Page 3</a>
+	    <a href="page4.html" class="btn">Page 4</a>
+	</div>
+
 </body>
 </html>
