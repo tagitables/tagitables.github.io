@@ -15,7 +15,7 @@
   <a href="https://github.com/tagitables/tagitables/blob/main/contact" target="_blank">Contact</a> |
   <a href="https://github.com/tagitables/tagitables/blob/main/projects" target="_blank">Projects</a>
         
-  <p>Hello World! My name is Quah Kai Xin and I am interested in philosophy, mathematical proofs and programming.</p>
+  <p>Hello World! My name is Quah Kai Xin and I am interested in philosophy and programming.</p>
   <p>To highlight, I believe in the overarching order of logic as well as the non-trivial significance of simplicity.</p>
   <p>I am currently a student at NUS School of Computing.</p>
   <p>I have also enrolled in the MIT Professional Certificate in Coding - Full Stack Development with MERN program.</p> 
