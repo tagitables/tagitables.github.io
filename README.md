@@ -13,7 +13,15 @@
     <p>I believe in the overarching order of logic as well as the non-trivial significance of simplicity.</p>
     <p>I have decided to enroll in this MIT Professional Certificate in Coding - Full Stack Development with MERN program for the sake of my own learning.</p> 
     <p>This GitHub page is meant for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission.</p></p>
-    <a href="https://github.com/tagitables" class="btn btn-primary" target="_blank">View GitHub Profile</a>    
+
+    <p>
+    <a href="https://github.com/tagitables/README.md" class="btn btn-primary" target="_blank">GitHub Profile</a> |
+    <a href="https://github.com/tagitables/home" class="btn btn-primary" target="_blank">Home</a> |
+    <a href="https://github.com/tagitables/about" class="btn btn-primary" target="_blank">About</a> |
+    <a href="https://github.com/tagitables/contact" class="btn btn-primary" target="_blank">Contact</a> |
+    <a href="https://github.com/tagitables/projects" class="btn btn-primary" target="_blank">Projects</a> |
+    </p>
+    
  </body>
 
 </html>
