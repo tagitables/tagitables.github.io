@@ -108,17 +108,25 @@
 
         .button-group {
             display: flex;
-            flex-direction: column;
+            justify-content: center; /* Center buttons horizontally */
             margin-top: 20px;
         }
 
         .button-group button {
-            margin: 5px 0;
-            background: #007bff;
+            margin: 0 5px; /* Add horizontal spacing between buttons */
+            background: #ccc; /* Grey background */
+            color: #333; /* Dark text color */
+            border: 1px solid #bbb; /* Light border */
+            padding: 8px 12px; /* Padding for a minimalist look */
+            border-radius: 4px; /* Rounded corners */
+            cursor: pointer;
+            font-size: 0.9em; /* Adjust font size */
+            transition: background 0.3s, border-color 0.3s; /* Smooth transition */
         }
 
         .button-group button:hover {
-            background: #0056b3;
+            background: #aaa; /* Darker grey on hover */
+            border-color: #888; /* Darker border on hover */
         }
     </style>
 </head>
@@ -147,6 +155,7 @@
             <div id="responseMessage"></div>
         </div>
 
+        <!-- Button Group -->
         <div class="button-group">
 		<button onclick="window.location.href='https://github.com/tagitables'">GitHub Profile</button>
 		<button onclick="window.location.href='https://github.com/tagitables/tagitables'">Home</button>
