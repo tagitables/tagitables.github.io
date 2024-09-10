@@ -1,16 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-  
+
+
   <body>
+
     <h2>Contact</h2>
     <p> <a href="https://github.com/tagitables" class="btn btn-primary" target="_blank">📧 quahkaixin@gmail.com</a> </p>
     <br> <a href="https://github.com/tagitables" class="btn btn-primary" target="_blank">☎️ +65 1234567890 </a> </br>
     <br> <a href="https://github.com/tagitables" class="btn btn-primary" target="_blank">📍 singapore</a> </br>
- </body>
 
+
+  <p>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {
+        'packages':['geochart'],
+      });
+      google.charts.setOnLoadCallback(drawRegionsMap);
+
+      function drawRegionsMap() {
+        var data = google.visualization.arrayToDataTable([
+          ['Country', 'Popularity'],
+          ['Germany', 200],
+          ['United States', 300],
+          ['Brazil', 400],
+          ['Canada', 500],
+          ['France', 600],
+          ['RU', 700]
+        ]);
+
+        var options = {};
+
+        var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+
+        chart.draw(data, options);
+      }
+    </script>
+
+    <div id="regions_div" style="width: 900px; height: 500px;"></div>
+
+  </body>
 </html>
