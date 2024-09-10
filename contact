@@ -26,7 +26,7 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            max-width: 400px;
+            max-width: 500px;
             margin: 20px auto;
         }
 
@@ -105,7 +105,7 @@
         <div class="contact-info">
             <h2>Contact Me</h2>
             <p>
-                <a href="mailto:tagitables@gmail.com">📧 tagitables@gmail.com</a>
+                <a href="mailto:quahkaixin@gmail.com">📧 quahkaixin@gmail.com</a>
             </p>
             <p>
                 <a href="tel:+1234567890">☎️ +1234567890</a>
@@ -119,25 +119,17 @@
         </div>
 
         <div class="contact-box">
-            <h2>Leave Your Contact Details</h2>
-            <form id="contactForm">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
+            <h2>Leave Your Contact</h2>
+            <form id="contactForm" action="https://formspree.io/f/mgvwqgkz" method="POST" enctype="multipart/form-data">
                 <div class="form-group">
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
                 </div>
                 <div class="form-group">
-                    <label for="phone">Phone:</label>
-                    <input type="tel" id="phone" name="phone">
+                    <label for="upload">File Upload:</label>
+                    <input type="file" id="upload" name="upload">
                 </div>
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                </div>
-                <button type="submit">Submit</button>
+                <button type="submit">Send</button>
             </form>
             <div id="responseMessage"></div>
         </div>
@@ -147,18 +139,32 @@
         document.getElementById('contactForm').addEventListener('submit', function(event) {
             event.preventDefault();
 
-            // Retrieve form values
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const phone = document.getElementById('phone').value;
-            const message = document.getElementById('message').value;
-
-            // Display a response message
+            const form = event.target;
             const responseMessage = document.getElementById('responseMessage');
-            responseMessage.textContent = `Thank you, ${name}. Your message has been received!`;
-            
-            // Clear the form
-            document.getElementById('contactForm').reset();
+
+            // Disable the form to prevent resubmission
+            form.querySelector('button').disabled = true;
+
+            const formData = new FormData(form);
+
+            fetch(form.action, {
+                method: form.method,
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then(response => {
+                if (response.ok) {
+                    responseMessage.textContent = 'Thank you! Your message has been received!';
+                    form.reset();
+                } else {
+                    responseMessage.textContent = 'Oops! There was a problem submitting your form.';
+                }
+            }).catch(error => {
+                responseMessage.textContent = 'Oops! There was a problem submitting your form.';
+            }).finally(() => {
+                form.querySelector('button').disabled = false;
+            });
         });
     </script>
 
