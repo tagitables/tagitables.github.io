@@ -161,18 +161,18 @@
             <div class="contact-info">
                 <h2>Contact Me</h2>
                 <p>
-                    <span><a href="mailto:blah@gmail.com"><span>📧 blah@gmail.com</span></a></span>
+                    <span><a href="mailto:tagitables@gmail.com"><span>📧 tagitables@gmail.com</span></a></span>
                     <span>|</span>
-                    <span><a href="tel:+1234567890"><span>☎️ +1234567890</span></a></span>
+                    <span><a href="tel:+650123456789"><span>☎️ +65 0123456789</span></a></span>
                     <span>|</span>
                     <span><a href="https://www.google.com/maps/place/Singapore"><span>📍 Singapore</span></a></span>
                     <span>|</span>
-                    <span><a href="https://github.com/blah"><span>GitHub Profile</span></a></span>
+                    <span><a href="https://github.com/tagitables"><span>GitHub Profile</span></a></span>
                 </p>
             </div>
 
             <div class="contact-box">
-                <h2>Leave Your Contact</h2>
+                <h2>Contact Me</h2>
                 <form id="contactForm" action="https://formspree.io/f/mgvwqgkz" method="POST" enctype="multipart/form-data">
                     <div class="form-group">
                         <label for="name">Name:</label>
@@ -190,7 +190,7 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="upload">Upload Your Request:</label>
+                        <label for="upload">Upload Supporting Documents:</label>
                         <input type="file" id="upload" name="upload">
                     </div>
 
