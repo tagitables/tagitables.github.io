@@ -99,13 +99,11 @@
 		</div>
 	</div>
 
-	<button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/contact'">Contact Me</button>
-            
 	<div class="button-group">
-		<a href="https://github.com/tagitables/tagitables/blob/main/README.md" class="btn">README.md</a>
-		<a href="https://github.com/tagitables/tagitables" class="btn">Home</a>
-		<a href="https://github.com/tagitables/tagitables/blob/main/contact" class="btn">Contact</a>
-		<a href="https://github.com/tagitables/tagitables/blob/main/projects" class="btn">Projects</a>
+		<button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/contact'">Contact Me</button>
+        	<button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/contact'">Home</button>
+		<button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/contact'">Contact</button>
+		<button onclick="window.location.href='https://github.com/tagitables/tagitables/blob/main/contact'">Projects</button>
 	</div>
 
 </body>
