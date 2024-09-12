@@ -19,7 +19,9 @@
   <p>I live by the principle of parsimony and believe in the value of simplicity.</p>
   <p>I am currently a student at NUS School of Computing.</p>
   <p>I am also enrolled in the MIT Professional Certificate in Coding - Full Stack Development with MERN program.</p> 
-  <p>This GitHub profile is primarily intended for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission.</p></p>
+  <p>This GitHub profile is primarily intended for MIT's Required Assignment 9.2: GitHub Pages Portfolio Assignment Submission.</p>
 
+  ![Screenshot 2024-09-12 230842](https://github.com/user-attachments/assets/c6953f74-356f-445f-aa86-2291c05796da)
+   
 </body>
 </html>
