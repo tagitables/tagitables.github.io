@@ -13,7 +13,7 @@
   <a href="https://github.com/tagitables/tagitables/blob/main/README.md" target="_blank">Home</a> |
   <a href="https://github.com/tagitables/tagitables/blob/main/about" target="_blank">About</a> |
   <a href="https://github.com/tagitables/tagitables/blob/main/contact" target="_blank">Contact</a> |
-  <a href="https://github.com/tagitables/tagitables/blob/main/projects" target="_blank">Projects</a>
+  <a href="tagitables.github.io/tagitables/projects" target="_blank">Projects</a>
         
   <p>Hello World! My name is Quah Kai Xin and I am interested in philosophy and programming.</p>
   <p>I live by the principle of parsimony and believe in the value of simplicity.</p>
